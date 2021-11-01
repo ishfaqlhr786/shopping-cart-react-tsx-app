@@ -38,7 +38,7 @@ const App=()=> {
   if(error) return <div>Some thing went wrong</div>
   return (
     <>
-   <wrapper>
+   <Wrapper>
 <Grid container spacing={3} >
   
   {
@@ -52,7 +52,7 @@ const App=()=> {
     
   
 </Grid>
- </wrapper>
+ </Wrapper>
  </>
   
   );
